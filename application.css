@@ -1,0 +1,44 @@
+html, body, section, article,
+h1, h2, p, strong, em, a {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hidden{
+  display: none;
+}
+
+.tile{
+  float: left;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background: grey;
+  outline: 1px solid darkgrey;
+}
+
+.revealed {
+  background: lightgrey;
+}
+
+.row{
+  position: relative;
+  width: 200px;
+}
